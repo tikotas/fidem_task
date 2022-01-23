@@ -1,0 +1,63 @@
+.root {
+  border: 1px solid #ddd;
+  overflow-x: auto;
+
+  input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ddd;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 0 10px;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  thead {
+    background-color: rgba(189, 188, 188, 0.87);
+  }
+
+  td {
+    width: 150px;
+    padding: 5px;
+  }
+
+  td:nth-child(7),
+  td:nth-child(8) {
+    border: none;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2
+  }
+
+  .edBtn {
+    background-color: #ffa610;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+
+    &:hover {
+      filter: brightness(90%);
+    }
+  }
+
+  .delBtn {
+    background-color: #d90d0d;
+    color: white;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+
+    &:hover {
+      filter: brightness(90%);
+    }
+  }
+
+}

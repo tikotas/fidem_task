@@ -1,0 +1,13 @@
+.container {
+    padding: 0 1rem;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: calc(100vh - 70px);
+    font-size: 30px;
+}
+

@@ -1,0 +1,14 @@
+.nav {
+  padding: 0 10px;
+  height: 50px;
+  width: 100%;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  border-radius: 5px 5px 0 0;
+  position: sticky;
+  top: 0;
+}
